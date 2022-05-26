@@ -150,13 +150,13 @@ jQuery(document).ready(function($) {
         loop: true,
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
             768: {
-                items: 4
+                items: 2
             },
             900: {
-                items: 6
+                items: 3
             }
         }
     });
