@@ -1,11 +1,4 @@
-/* 
-Theme Name: FORCE Bootstrap Theme 
-Author: WebThemez.com
-License: https://webthemez.com/license 
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #444;
@@ -710,6 +703,7 @@ Inner Banner
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
+  background-color: #C4A484;
 }
 
 #services .box .icon {
@@ -1413,4 +1407,186 @@ p.help-block li {
   margin-bottom:0;
 }
 
-/* Credit to https://epicbootstrap.com/snippets/footer-basic */
+.capabilities-container {
+	width: 100%;
+	min-height: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.capabilities-container img {
+	max-width: 70%;
+}
+
+
+
+/* values Section
+--------------------------------*/
+#values {
+  padding: 90px 0 0 0;
+}
+
+#values .box {
+  box-sizing: content-box;
+  padding: 30px 30px 0 30px;
+  margin: 30px 15px;
+  text-align: center;
+  min-height: 250px;
+}
+
+#values .box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+
+}
+
+#values .box .icon {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+#values .box .icon i {
+  color: #444;
+  font-size: 50px;
+  transition: 0.5s;
+  line-height: 0;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+#values .box .icon i:before {
+  background: #8B4513;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#values .box h4 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin: 0;
+}
+
+#values .box h4 a {
+  color: #444;
+}
+
+#values .box p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  #values .box .box {
+    margin-bottom: 20px;
+  }
+  #values .box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  #values .box h4, #values .box p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* FOCUS Section
+--------------------------------*/
+#focus {
+  padding: 90px 0 0 0;
+}
+
+#focus .box {
+  box-sizing: content-box;
+  padding: 30px 30px 0 30px;
+  margin: 30px 15px;
+  text-align: center;
+  min-height: 160px;
+  background-color: whitesmoke;
+}
+
+#focus .box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+
+}
+
+#focus .box .icon {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+#focus .box .icon i {
+  color: #444;
+  font-size: 50px;
+  transition: 0.5s;
+  line-height: 0;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+#focus .box .icon i:before {
+  background: #8B4513;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#focus .box h4 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin: 0;
+}
+
+#focus .box h4 a {
+  color: #444;
+}
+
+#focus .box p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  #focus .box .box {
+    margin-bottom: 20px;
+  }
+  #focus .box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  #focus .box h4, #focus .box p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
