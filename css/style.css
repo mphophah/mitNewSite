@@ -195,6 +195,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   /* font-weight: bold; */
 } 
+#hero .hero-content h3 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 17px;
+  text-align: left;
+  /* font-weight: bold; */
+} 
 #hero .hero-content h2 span {
   color: #ffffff;
   text-align: right;
